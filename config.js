@@ -8,29 +8,29 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Qᴜᴇᴇɴ ᴀɴʏᴀ ᴠ2",
-    footer: process.env.Footer || "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐐𝐮𝐞𝐞𝐧 𝐀𝐧𝐲𝐚 𝐁𝐨𝐭",
-    prefa: process.env.Prefix || "-",
-    themeemoji: process.env.ThemeEmoji || "🎐",
+    botname: process.env.BotName || "Social Today services ",
+    footer: process.env.Footer || "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 TEEMAN ",
+    prefa: process.env.Prefix || "-",".",
+    themeemoji: process.env.ThemeEmoji || "🚬",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
-    instagramId: process.env.Insta || "3.69_pika",
+    ownername: process.env.Owner_Name || "Teeman",
+    ownernumber: process.env.Owner_Number || "+263789661013",
+    instagramId: process.env.Insta || "teem.an9",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "𝐏𝐢𝐤𝐚𝐁𝐨𝐭𝐳 🌚🌙",
-    packname: process.env.PackName || "𝕼𝖚𝖊𝖊𝖓 𝕬𝖓𝖞𝖆 𝖁2 𝕾𝖙𝖎𝖈𝖐𝖊𝖗 𝕻𝖆𝖈𝖐 🪀",
-    socialLink: process.env.Web || "https://github.com/PikaBotz",
-    groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
+    author: process.env.Author || "TEEMAN💯🇯🇲",
+    packname: process.env.PackName || "Tee Stickers 𝖁2 𝕾𝖙𝖎𝖈𝖐𝖊𝖗 𝕻𝖆𝖈𝖐 🪀",
+    socialLink: process.env.Web || "https://github.com/Teeman9",
+    groupLink: process.env.GcLink || " https://chat.whatsapp.com/BTpNxXRWsaNK8taLkHQwKl",
     warns: Number(process.env.Warn_Limits) || 3,
-    cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
+    cooldown: Number(process.env.Cooldown_Timer_Seconds) || 1, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
-    sessionId: process.env.SESSION_ID || "YOUR_SESSION_ID",
+    sessionId: process.env.SESSION_ID || "ZnV0Nml_Queen-Anya_qMjA=",
 
     /**
      * thumbnails and medias
@@ -50,7 +50,7 @@ module.exports = {
     fakeshop: { key: { fromMe: false, participant: "0@s.whatsapp.net", remoteJid: "status@broadcast" }, message: { orderMessage: { itemCount: 1234, status: 200, thumbnail: this.image_1, surface: 200, message: this.botname, orderTitle: this.ownername, sellerJid: '0@s.whatsapp.net'}}, contextInfo: { forwardingScore: 999, isForwarded: true}, sendEphemeral: true },
     message: {
         success: "✅ 𝚂𝚞𝚌𝚌𝚎𝚜𝚜! 𝙾𝚙𝚛𝚊𝚝𝚒𝚘𝚗 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍.",
-        admin: "*👤 A𝙳𝙼𝙸𝙽 N𝙴𝙴𝙳𝙴𝙳!*\n\n- Dear, this command is only for Admins. You have to be a admin in this group to use this command.",
+        admin: "*👤 A𝙳𝙼𝙸𝙽 N𝙴𝙴𝙳𝙴𝙳!*\n\n- Dear, this command is only for President and Admins. You have to be a admin in this group to use this command.",
         botAdmin: "*🤖 B𝙾𝚃 A𝙳𝙼𝙸𝙽 N𝙴𝙴𝙳𝙴𝙳!*\n\n- I'm not an Admin, so I can't execute this command in this group. Please make me an Admin.",
         owner: "*👑 O𝚆𝙽𝙴𝚁 N𝙴𝙴𝙴𝙳𝙴𝙳!*\n\n- Bruh, this command is only made for this bot's owner. So you can't use this command.",
         group: "*👥 G𝚛𝚘𝚞𝚙 N𝚎𝚎𝚍𝚎𝚍!*\n\n- This command can only be executed in a group chat.",
@@ -58,7 +58,7 @@ module.exports = {
         wait: '🔄 Processing request...',
         error: "❌ Oops! An error occurred while processing your request. Please try again later.",
         ban: `You're banned from using this bot!`,
-        nsfw: 'This group is not *NSFW* enabled.',
+        nsfw: 'This group is not *ZnV0Nml_Queen-Anya_qMjA=* enabled.',
         banChat: 'This group is banned from using this bot, please contact owner to get unbanned.'
     },
     Port: process.env.Port || "8080",
